@@ -35,5 +35,7 @@
 */
 
 int task01(int a, int b, int c) {
-	return 0;
+	if (a <= 0 || b <= 0 || c <= 0)
+		return 0;
+	return a / 2 + a % 2 + b / 2 + b % 2 + c / 2 + c % 2;
 }
